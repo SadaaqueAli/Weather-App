@@ -27,13 +27,14 @@ input{
 button{
     width: 70px;
     height: 35px;
-    border-radius: 4px;
+    border-radius: 5px;
     border: none;
     outline: none;
     font-size: 18px;
-    background-color: lightblue;
+    background-color: rgb(163, 192, 202);
     margin-top: 1px;
     margin-inline: 9px;
+    padding: 5px;
 }
 ::placeholder{
     color: black;
@@ -44,10 +45,10 @@ button{
 }
 #temp{
     font-size: 40px;
-    margin-top: -20px;
+    margin-top: -5px;
 }
 #type{
-    margin-top: 26px;
+    margin-top: -5px;
     font-size: -33px;
 }
 .container{
